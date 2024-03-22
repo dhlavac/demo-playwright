@@ -8,6 +8,8 @@ packages = [{include = "playwright_demo"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+pytest = "^8"
+pytest-playwright = "^0.4.4"
 
 
 [build-system]
