@@ -33,6 +33,6 @@ jobs:
       - name: Install the project dependencies
         run: poetry install
       - name: Ensure browsers are installed
-        run: python -m playwright install --with-deps
+        run: poetry run python -m playwright install --with-deps
       - name: Run the automated tests (for example)
         run: poetry run pytest -v
