@@ -5,7 +5,7 @@ def test_example(page: Page) -> None:
     page.goto("https://demo.playwright.dev/todomvc/#/")
     page.get_by_placeholder("What needs to be done?").click()
     page.get_by_placeholder("What needs to be done?").fill("new project")
-    page.get_by_placeholder("What needs to be done?").press("Enter")
+    page.get_by_placeholder("What needs to be done?").press("Entera")
     page.get_by_placeholder("What needs to be done?").click()
     page.get_by_placeholder("What needs to be done?").fill("another one project")
     page.get_by_placeholder("What needs to be done?").press("Enter")
